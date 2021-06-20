@@ -8,9 +8,10 @@ import FormFn from './components/FormFn';
 import Count from './components/Count';
 import EffectHook from './components/EffectHook';
 import ParentToChild from './App/ParentToChild';
+import ChildToParent from './App/ChildToParent';
 function App() {
   return (
-    <ParentToChild />
+    <ChildToParent/>
 
   );
 }
