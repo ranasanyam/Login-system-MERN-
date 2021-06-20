@@ -5,9 +5,11 @@ import FormClass from './components/FormClass';
 import UserClass from './components/UserClass';
 import Rendering from './components/Rendering';
 import FormFn from './components/FormFn';
+import Count from './components/Count';
+import EffectHook from './components/EffectHook';
 function App() {
   return (
-    <FormFn />
+    <EffectHook />
 
   );
 }
