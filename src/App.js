@@ -17,10 +17,14 @@ import './App.css';
 //import Random from './App/Random';
 //import Ref from './App/Ref';
 //import Ref1 from './App/Ref1';
-import Memo from './App/Memo';
+//import Memo from './App/Memo';
+import Mounted from './Api/Mounted';
+
+
+
 function App() {
   return (
-    <Memo />
+    <Mounted favcol="gray" />
   );
 }
 
