@@ -15,12 +15,12 @@ import './App.css';
 //import Nested from './Router/Nested';
 //import Protected from './Router/Protected';
 //import Random from './App/Random';
-import Ref from './App/Ref';
-
-
+//import Ref from './App/Ref';
+//import Ref1 from './App/Ref1';
+import Memo from './App/Memo';
 function App() {
   return (
-    <Ref />
+    <Memo />
   );
 }
 
