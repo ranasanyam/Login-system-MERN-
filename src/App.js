@@ -9,9 +9,11 @@ import Count from './components/Count';
 import EffectHook from './components/EffectHook';
 import ParentToChild from './App/ParentToChild';
 import ChildToParent from './App/ChildToParent';
+import Drilling from './App/Drilling';
+import Dictionary from './App/Dictionary';
 function App() {
   return (
-    <ChildToParent/>
+    <Dictionary/>
 
   );
 }
