@@ -11,13 +11,13 @@ import './App.css';
 //import ChildToParent from './App/ChildToParent';
 //import Drilling from './App/Drilling';
 //import Dictionary from './App/Dictionary';
-import Routes from './Router/Routes';
-
+//import Routes from './Router/Routes';
+import Nested from './Router/Nested';
 
 
 function App() {
   return (
-    <Routes/>
+    <Nested />
   );
 }
 
