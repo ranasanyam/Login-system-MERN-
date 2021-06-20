@@ -14,10 +14,13 @@ import './App.css';
 //import Routes from './Router/Routes';
 //import Nested from './Router/Nested';
 //import Protected from './Router/Protected';
-import Random from './App/Random';
+//import Random from './App/Random';
+import Ref from './App/Ref';
+
+
 function App() {
   return (
-    <Random />
+    <Ref />
   );
 }
 
