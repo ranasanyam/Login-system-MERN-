@@ -13,11 +13,11 @@ import './App.css';
 //import Dictionary from './App/Dictionary';
 //import Routes from './Router/Routes';
 //import Nested from './Router/Nested';
-import Protected from './Router/Protected';
-
+//import Protected from './Router/Protected';
+import Random from './App/Random';
 function App() {
   return (
-    <Protected />
+    <Random />
   );
 }
 
