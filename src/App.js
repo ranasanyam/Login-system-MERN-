@@ -7,9 +7,10 @@ import Rendering from './components/Rendering';
 import FormFn from './components/FormFn';
 import Count from './components/Count';
 import EffectHook from './components/EffectHook';
+import ParentToChild from './App/ParentToChild';
 function App() {
   return (
-    <EffectHook />
+    <ParentToChild />
 
   );
 }
