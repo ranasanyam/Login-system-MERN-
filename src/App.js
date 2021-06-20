@@ -12,12 +12,12 @@ import './App.css';
 //import Drilling from './App/Drilling';
 //import Dictionary from './App/Dictionary';
 //import Routes from './Router/Routes';
-import Nested from './Router/Nested';
-
+//import Nested from './Router/Nested';
+import Protected from './Router/Protected';
 
 function App() {
   return (
-    <Nested />
+    <Protected />
   );
 }
 
