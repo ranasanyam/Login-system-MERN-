@@ -19,12 +19,12 @@ import './App.css';
 //import Ref1 from './App/Ref1';
 //import Memo from './App/Memo';
 //import Mounted from './Api/Mounted';
-import Update from './Api/Update';
-
+//import Update from './Api/Update';
+import Unmount from './Api/Unmount';
 
 function App() {
   return (
-    <Update />
+    <Unmount />
   );
 }
 
