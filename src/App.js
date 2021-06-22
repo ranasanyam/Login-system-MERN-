@@ -22,12 +22,12 @@ import './App.css';
 //import Update from './Api/Update';
 //import Unmount from './Api/Unmount';
 //import Theme from './Context/Theme';
-import FnContext from './Context/FnContext';
-
+//import FnContext from './Context/FnContext';
+import MainApp from './Context/MainApp';
 
 function App() {
   return (
-    <FnContext />
+    <MainApp />
   );
 }
 
