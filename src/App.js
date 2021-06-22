@@ -20,11 +20,14 @@ import './App.css';
 //import Memo from './App/Memo';
 //import Mounted from './Api/Mounted';
 //import Update from './Api/Update';
-import Unmount from './Api/Unmount';
+//import Unmount from './Api/Unmount';
+//import Theme from './Context/Theme';
+import FnContext from './Context/FnContext';
+
 
 function App() {
   return (
-    <Unmount />
+    <FnContext />
   );
 }
 
