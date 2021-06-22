@@ -25,4 +25,10 @@ export default class Mounted extends Component {
             </div>
         )
     }
+    componentDidMount() {
+        console.log('Component Did Mount');
+        setTimeout(() => {
+            this.setState({ favoriteColor: this.props.favcol})
+        }, 1000);
+    }
 }

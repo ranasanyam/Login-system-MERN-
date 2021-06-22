@@ -18,13 +18,13 @@ import './App.css';
 //import Ref from './App/Ref';
 //import Ref1 from './App/Ref1';
 //import Memo from './App/Memo';
-import Mounted from './Api/Mounted';
-
+//import Mounted from './Api/Mounted';
+import Update from './Api/Update';
 
 
 function App() {
   return (
-    <Mounted favcol="gray" />
+    <Update />
   );
 }
 
