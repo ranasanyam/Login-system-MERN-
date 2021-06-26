@@ -12,12 +12,12 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
-                <UserConsumer>
-                    {(props) => {
-                        console.log(props);
-                        return <div>{props.name} loggedIn Successfully....</div>
-                    }}
-                </UserConsumer>
+                <button onClick={() => {
+                    const newUser = { name: 'Snow', loggedIn: true }
+                }}>
+                    Update Context User
+                </button>
+                <p>{`Current User: `}</p>
             </div>
         )
     }
